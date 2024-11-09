@@ -1,0 +1,51 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "lendings",
+    "collectionId": "21e734bd-92c9-49b6-ae4a-64df684bb422",
+    "dateExported": "2024-11-09T16:58:23.975Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "b351ad2b-2d51-486a-a996-5e7c22db041f",
+            "colId": "21e734bd-92c9-49b6-ae4a-64df684bb422",
+            "containerId": "",
+            "name": "postLending",
+            "url": "lendings",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-11-09T16:50:37.665Z",
+            "modified": "2024-11-09T16:52:22.650Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"user_id\": 7,\n  \"copy_id\": 18,\n  \"start\": \"2003-07-04\"\n\n  \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "8828d32e-6cc5-4224-b246-c1faea448237",
+            "colId": "21e734bd-92c9-49b6-ae4a-64df684bb422",
+            "containerId": "",
+            "name": "deleteLending",
+            "url": "lendings/3/10/2013-10-27",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-11-09T16:53:54.521Z",
+            "modified": "2024-11-09T16:56:21.141Z",
+            "headers": []
+        }
+    ],
+    "settings": {
+        "headers": [
+            {
+                "name": "Accept",
+                "value": "application/json"
+            }
+        ],
+        "options": {
+            "baseUrl": "http://localhost:8000/api/"
+        }
+    },
+    "ref": "eb6N9Hx6puPxUp3EcI5pgWv5V2804ys05ALwS4OIJ5_AZWhYsqJRgE4gibcHuo9qXbqnYiXk2wIQx5MlOlZphA"
+}
